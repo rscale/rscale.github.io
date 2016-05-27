@@ -23,3 +23,11 @@ body {
 .date {
   font-size: 5em;
 }
+
+.highlight {
+  color: #B52626;
+}
+
+.scale {
+  color: #C7C7C7;
+}
