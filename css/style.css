@@ -17,9 +17,9 @@ body {
 
 .message {
   font-size: 4vw;
-  color: #CCCCCC;
   margin-left: -50px;
   white-space: nowrap;
+  letter-spacing: -3px;
 }
 
 .date {
@@ -27,7 +27,7 @@ body {
   white-space: nowrap;
 }
 
-.highlight {
+.resilient {
   color: #B52626;
 }
 
