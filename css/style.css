@@ -12,16 +12,19 @@ body {
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-45%, -50%);
+  padding: 0px;
 }
 
 .message {
   font-size: 2em;
   color: #CCCCCC;
   margin-left: -50px;
+  white-space: nowrap;
 }
 
 .date {
-  font-size: 5em;
+  font-size: 4em;
+  white-space: nowrap;
 }
 
 .highlight {
