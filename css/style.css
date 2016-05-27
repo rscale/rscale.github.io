@@ -16,14 +16,14 @@ body {
 }
 
 .message {
-  font-size: 2em;
+  font-size: 4vw;
   color: #CCCCCC;
   margin-left: -50px;
   white-space: nowrap;
 }
 
 .date {
-  font-size: 4em;
+  font-size: 10vw;
   white-space: nowrap;
 }
 
