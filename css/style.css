@@ -15,22 +15,22 @@ body {
   padding: 0px;
 }
 
-.message {
+.date {
+  font-size: 10vw;
+  white-space: nowrap;
+}
+
+.logo {
   font-size: 4vw;
   margin-left: -50px;
   white-space: nowrap;
   letter-spacing: -3px;
 }
 
-.date {
-  font-size: 10vw;
-  white-space: nowrap;
-}
-
-.resilient {
+.logo .resilient {
   color: #B52626;
 }
 
-.scale {
+.logo .scale {
   color: #C7C7C7;
 }
