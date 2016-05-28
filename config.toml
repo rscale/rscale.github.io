@@ -4,7 +4,7 @@ languageCode = "en-us"
 title = "Resilient Scale"
 theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-78426247-1"
 
 [params]
 
@@ -18,7 +18,7 @@ googleAnalytics = ""
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Resilient Scale"
-	description = "Expert consulting and training on Cloud Foundry and BOSH."
+	description = "Expert consulting and training on all things Cloud Native.  Cloud Foundry, BOSH, Spring, Concourse."
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -31,10 +31,10 @@ googleAnalytics = ""
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "sgreenberg+webform@rscale.io"
+	email = "contact@resilientscale.io"
 
     # Link custom assets relative to /static
-    custom_css = []
+    custom_css = ["/css/rscale.css"]
     custom_js  = []
 
 
@@ -56,44 +56,46 @@ googleAnalytics = ""
     #    name = "Hugo"
     #    weight = 10
 
-    # postpended links
-    [[menu.postpend]]
-        url = "http://gohugo.io"
-        name = "External link"
-        weight = 10
-
 
 	# Hero section
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Welcome To Our Studio!"
-		subtitle = "It's nice to meet you"
+		title = "Accelerating Your Cloud Native Journey"
+		subtitle = "Immersive <span class='divider'></span> Agile <span class='divider'></span> Resilient"
 		buttonText = "Tell me more"
 
 
 	# Services section
 	[params.services]
-        enable = true
+    enable = true
 		title = "Services"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		subtitle = "Expert training and consulting services on all things Cloud Native."
 
         [[params.services.row]]
 
             [[params.services.row.list]]
-                icon = "fa-shopping-cart"
-                title = "E-Commerce"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                icon = "fa-mortar-board"
+                title = "Training"
+                description = "Instructor lead, immersive training in Cloud Native topics: Cloud Foundry, Spring, BOSH, and Concourse."
 
             [[params.services.row.list]]
-                icon = "fa-laptop"
-                title = "Responsive Design"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                icon = "fa-share-alt"
+                title = "Consulting"
+                description = "Get moving the right direction, develop new innovative offerings, and solve your unique challenges with our cloud native experts."
 
-            [[params.services.row.list]]
-                icon = "fa-lock"
-                title = "Web"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+						[[params.services.row.list]]
+                icon = "fa-gears"
+                title = "Workshops"
+                description = "Part training, part consulting.  Learn, implement and discuss your specific use cases and challenges."
+
+#fa-gears
+#fa-globe
+#fa-leaf
+#fa-trophy
+#fa-group
+# fa-mortar-board
+#fa-tv
 
 	# Portfolio section
 	[params.portfolio]
@@ -114,7 +116,7 @@ googleAnalytics = ""
 
     # About section
 	[params.about]
-        enable = true
+    enable = true
 		title = "About"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 		endpoint = "Be part<br>of our<br>story!"
@@ -149,7 +151,7 @@ googleAnalytics = ""
 
 	# Team section
 	[params.team]
-        enable = true
+    enable = true
 		title = "Our amazing team"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
@@ -236,24 +238,16 @@ googleAnalytics = ""
 
 	# Footer section
 	[params.footer]
-        enable = true
-		copyright = "Published under the Apache License 2.0."
+    enable = true
+		copyright = "Copyright (c) 2016 Resilient Scale, LLC.  All Rights Reserved."
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
-			link = "#"
-
-		[[params.footer.social]]
-			icon = "fa-facebook"
-			link = "#"
-
-		[[params.footer.social]]
-			icon = "fa-linkedin"
-			link = "#"
+			link = "https://twitter.com/ResilientScale"
 
 		[[params.footer.quicklinks]]
 			text = "Privacy Policy"
-			link = "#"
+			link = "/privacypolicy.html"
 
 		[[params.footer.quicklinks]]
 			text = "Terms of Use"
