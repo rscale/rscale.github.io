@@ -1,60 +1,92 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url("../lib/font/Roboto/Roboto.css");
 
 body {
-  font-family: Roboto;
+  padding-top: 52px;
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  font-family: "Roboto", sans-serif;
 }
 
-.logo {
-  font-size: 3vw;
-  white-space: nowrap;
-  letter-spacing: -0.08em;
-  font-family: Roboto;
+.navbar-wrapper .navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
 }
 
-.resilient {
+.navbar-header {
+  min-width: 160px;
+}
+
+.navbar>.container .navbar-brand {
+  display: inline-block;
+  min-width: 160px;
+  min-height: 35px;
+  max-height: 60px;
+  max-width: 210px;
+  margin-left: -5px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/resilient-scale-logo-small.png");
+}
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 60px;
+  }
+}
+
+.featurette-image {
+  max-height: 250px;
+}
+
+.featurette .fa {
+  font-size: 150px;
+}
+
+.featurette .sub-paragraph {
+  font-size: larger;
+}
+
+.marketing .col-lg-6 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.marketing .col-lg-6 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.red {
   color: #B52626;
 }
 
-.scale {
-  color: #C7C7C7;
+.carousel-item-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.copyright {
-  font-size: 0.9vw;
-  color: #545454;
+.carousel-caption {
+  font-family: "Roboto", sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
 }
 
-.quicklinks {
-  font-size: 0.9vw;
+.carousel-caption > h1, p {
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
 
-.quicklinks a {
-  color: #545454;
+.carousel-caption .fa {
+  font-size: 120px;
 }
 
-.divider {
-  border-right: 1px solid;
-  margin: 30px;
-}
-
-header .intro-text .intro-lead-in {
-  font-size: 3vw;
-}
-
-header .intro-text .intro-heading {
-  font-size: 5vw;
-  letter-spacing: -3px;
-}
-
-header .image-credit a {
-  color: #A1A1A1;
-  font-size: 0.8em;
-  float: right;
-  margin-right: 0px;
-  padding-right: 0px;
-}
-
-.expertise-image {
-  max-height: 200px;
-  min-height: 200px;
+#contact {
+  margin-bottom: 30px;
 }
