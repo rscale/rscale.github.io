@@ -54,6 +54,7 @@ body {
 }
 
 .marketing .col-lg-6 {
+  margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -65,6 +66,10 @@ body {
 
 .red {
   color: #B52626;
+}
+
+.carousel {
+  margin-bottom: 20px;
 }
 
 .carousel-item-image {
