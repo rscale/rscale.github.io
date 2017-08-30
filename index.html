@@ -41,7 +41,10 @@
           <div id="navbar" class="navbar-collapse collapse pull-right">
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="training.html">Training</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#difference">Our Difference</a></li>
+              <li><a href="#expertise">Expertise</a></li>
+              <li><a href="courses.html">Courses</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
@@ -52,7 +55,7 @@
 
     <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -115,7 +118,7 @@
           <img class="img-circle" src="img/mortar-board.png" alt="Training Logo" width="140" height="140" />
           <h2><span class="red">Immersive Training</span></h2>
           <p>We offer context-based, immersive training. Our belief is that technologist need a solid education focused on context (the "why") and learning by doing (the "experiences").</p>
-          <p><a class="btn btn-default" href="training.html" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="#difference" role="button">Our difference &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-6">
           <img class="img-circle" src="img/consulting.png" alt="Consulting Logo" width="140" height="140" />
@@ -129,7 +132,7 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
+      <div class="row featurette" id="about">
         <div class="col-md-12">
           <div class="col-md-9">
             <h2 class="featurette-heading">What's in a name?</h2>
@@ -145,7 +148,7 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
+      <div class="row featurette" id="difference">
         <div class="col-md-12">
           <h2 class="featurette-heading" id="our-difference" style="padding-bottom: 20px;">Our Difference</h2>
           <p class="lead">
@@ -165,12 +168,17 @@
             <p class="lead">You should expect an intensive, hands-on training class. You won't find presentations discussing flags in `cf push`, but presentations that provide context on what is happening and why. You won't find exercises where you can cut and paste your way to the answer. Exercises provide the opportunity to experience the platform and directly apply what you have learned. You will find exercises that guide you while training you to use tools like `cf help` and the docs.
             </p>
           </div>
+          <div class="col-md-offset-3 col-md-9" style="margin-top: 30px;">
+            <p class="lead">
+              <a class="btn btn-default" href="courses.html" role="button">Current courses &raquo;</a>
+            </p>
+          </div>
         </div>
       </div>
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
+      <div class="row featurette" id="expertise">
         <div class="col-md-7 col-xs-12">
           <h2 class="featurette-heading">Expertise</h2>
           <p class="lead"><a href="https://www.cloudfoundry.org/" target="_blank">Cloud Foundry</a> is the industry standard open source cloud application platform for developing and deploying enterprise cloud applications.  We have deep experience in Cloud Foundry for both development and operations.</p>
