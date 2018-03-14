@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Resilient Scale</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+
     <meta name="description" content="Scaling your capabilities in Cloud Foundry, BOSH, Spring and Concourse, Resiliently">
     <meta name="author" content="Resilient Scale">
-    <title>Resilient Scale</title>
-    <link href="bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="bootstrap-3.3.7/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    <script src="bootstrap-3.3.7/assets/js/ie-emulation-modes-warning.js"></script>
-    <link href="css/carousel.css" rel="stylesheet">
+
+    <link href="fontawesome-5.0.8/css/fontawesome.min.css" rel="stylesheet">
     <link href="css/rscale.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -27,172 +27,189 @@
   </head>
   <body>
 
-    <div class="navbar-wrapper">
-      <nav class="navbar navbar-inverse">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html"></a>
+    <div class="row rs-header">
+      <div class="container" id="home">
+        <div class="row rs-header-content">
+          <div class="col align-self-center text-center rs-title">
+            <img class="img-fluid rs-header-logo" src="img/resilient-scale-logo.png" alt="Resilient Scale Logo" />
+            <p class="header-tag-line">
+              scaling your cloud native capability through <br />
+              training and advisory consulting
+            </p>
           </div>
-          <div id="navbar" class="navbar-collapse collapse pull-right">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#difference">Our Difference</a></li>
-              <li><a href="#expertise">Expertise</a></li>
-              <li><a href="courses.html">Courses</a></li>
-              <li><a href="#contact">Contact</a></li>
+        </div>
+      </div>
+    </div>
+
+    <nav class="row navbar navbar-dark bg-dark sticky-top justify-content-center">
+      <div class="navbar-nav nav-item col text-center">
+        <a class="nav-link" href="#training">Training</a>
+      </div>
+      <div class="navbar-nav nav-item col text-center">
+        <a class="nav-link" href="#consulting">Consulting</a>
+      </div>
+      <div class="navbar-nav nav-item col text-center d-none d-md-block">
+        <a class="nav-link navbar-icon" href="#home"></a>
+      </div>
+      <div class="navbar-nav nav-item text-center d-md-none d-none d-sm-block">
+        <a class="nav-link navbar-icon-sm" href="#home"></a>
+      </div>
+      <div class="navbar-nav nav-item col text-center">
+        <a class="nav-link" href="#expertise">Expertise</a>
+      </div>
+      <div class="navbar-nav nav-item col text-center">
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="container about" id="about">
+      <div class="row justify-content-center">
+        <div class="col-md text-center">
+          <img class="img-circle" src="img/mortar-board.png" alt="Training Logo" width="140" height="140" />
+          <h2><span class="red">Immersive Training</span></h2>
+          <p>Training provides the foundation so we can all speak the same language and understand the core concepts. Technologists need a solid education focused on context (the "why") and learning by doing (the "experiences").</p>
+        </div>
+        <div class="col-md text-center">
+          <img class="img-circle" src="img/consulting.png" alt="Consulting Logo" width="140" height="140" />
+          <h2><span class="red">Advisory Consulting</span></h2>
+          <p>Advisory consulting picks up where training leaves off.  We support and advise our customers as they develop and deploy real solutions that impact their business.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="training"></div>
+    <div class="training rs-section">
+      <div class="rs-container border border-dark rounded">
+        <div class="row">
+          <div class="col rs-section-header">Immersive Training</div>
+        </div>
+        <div class="row">
+          <div class="col rs-section-tagline">As pioneers in immersive, hands-on training we are uniquely positioned to educate your teams on effective, resilient scaling of cloud-native capabilities.</div>
+        </div>
+        <div class="row">
+          <div class="col rs-section-content">
+            <span class="rs-section-content-header">Engineers, not trainers</span><br />
+            <span>Our engineers don't just talk the talk, but we regularly walk the walk. We are experts because we have done it and we  share our experience with you.</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col rs-section-content">
+            <span class="rs-section-content-header">Context as a foundation</span><br />
+            <span>We believe strongly in the importance of personas - understanding our audience and crafting offerings accordingly. Developers are creators and need to make good decisions and reason over domains beyond just the platform.</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col rs-section-content">
+            <span class="rs-section-content-header">Immersive learning</span><br />
+            <span>Our students learn by doing. You won't find exercises where you can cut and paste your way to the answer. Exercises provide experiences where students directly apply what they have learned.</span>
+          </div>
+        </div>
+        <div class="row justify-content-center actions">
+          <div class="col-md-3 border rounded action">
+            <a href="#contact">Contact us</a> to schedule onsite Instructor Lead Training
+          </div>
+          <div class="col-md-1">&nbsp;</div>
+          <div class="col-md-3 border rounded action">
+            Enroll in our innovative e-learning courses at <a href="https://learn.rscale.io">learn.rscale.io</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="quote-container">
+      <div class="row" id="quote">
+        <div class="col-md-9 quote align-middle">“Steve has played an absolutely vital role for the Foundation on both Developer Certification and Training.  He has shown just the right mix of deep technical knowledge and solid leadership to solve our most challenging and time critical problems.”</div>
+        <div class="col-md-3 quote-attribution border rounded align-middle">
+          <img class="img-fluid quote-image" src="img/CFF_Logo_vertical_RGB.png" alt="Cloud Foundry Logo" />
+          Tim Harris<br/>
+          Director of Certification Programs<br/>
+          <a href="https://cloudfoundry.org" target="_blank">Cloud Foundry Foundation</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="consulting"></div>
+    <div class="consulting rs-section">
+      <div class="rs-container border border-dark rounded">
+        <div class="row">
+          <div class="col rs-section-header">Advisory Consulting</div>
+        </div>
+        <div class="row">
+          <div class="col rs-section-tagline ">We work collaboratively with our customers to solve problems and ensure projects are a success.</div>
+        </div>
+        <div class="row">
+          <div class="col rs-section-content">
+            <span class="rs-section-content-header">What we <i>don't</i> do</span><br/>
+            <span>Our focus is helping you improve and grow your capabilities. Our focus is <i>not</i> to do the work for you. Therefore, we don't do long delivery engagements.</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col rs-section-content">
+            <span class="rs-section-content-header">What we do</span><br />
+            <span>We aim to transfer knowledge and continue educating and supporting our customers, while working on solutions. We continue where traditional training leaves off. Whether architecture, planning, pairing or workshops we share our expertise and experience while also solving your unique challenges.</span>
+          </div>
+        </div>
+        <div class="row justify-content-center actions">
+          <div class="col-md-3 border rounded action">
+            <a href="#contact">Contact us</a> to discuss your project needs
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="quote-container">
+      <div class="row" id="quote">
+        <div class="col-md-9 quote align-middle">“Steve has played an absolutely vital role for the Foundation on both Developer Certification and Training.  He has shown just the right mix of deep technical knowledge and solid leadership to solve our most challenging and time critical problems.”</div>
+        <div class="col-md-3 quote-attribution border rounded align-middle">
+          <img class="img-fluid quote-image" src="img/CFF_Logo_vertical_RGB.png" alt="Cloud Foundry Logo" />
+          Tim Harris<br/>
+          Director of Certification Programs<br/>
+          <a href="https://cloudfoundry.org" target="_blank">Cloud Foundry Foundation</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="expertise"></div>
+    <div class="expertise rs-section">
+      <div class="rs-container border border-dark rounded">
+        <div class="row">
+          <div class="col rs-section-header">Expertise</div>
+        </div>
+        <div class="row">
+          <div class="col rs-section-tagline ">We have deep expertise in cloud native architecture and implementation. We focus on technologies including Cloud Foundry, Spring, BOSH, containers and Concourse.</div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <img src="img/cf-logo-white.png" class="img-fluid"/>
+          </div>
+          <div class="col-md-9 rs-section-content">
+            <ul>
+              <li>We are an <a href="https://www.cloudfoundry.org/the-foundry/resilient-scale-2/">Authorized Training Partner</a> of the Cloud Foundry Foundation.</li>
+              <li>We are the technical advisors for the Cloud Foundry Foundation's <a href="https://www.cloudfoundry.org/certification/">Developer Certification</a>.</li>
+              <li>We co-authored the Cloud Foundry Foundation's <a href="https://www.cloudfoundry.org/training/">Developer Training</a> course.</li>
+              <li>We are a <a href="https://www.cloudfoundry.org/members/">Silver Member</a> of the Cloud Foundry Foundation.</li>
+              <li>Steve is proud to be a Cloud Foundry Ambassador.</li>
+              <li>We have been working with the <a href="https://spring.io" target="_blank">Spring</a> for over a decade and are delighted by the current renaissance of the framework. We built and donated the Spring Cloud Cloud Foundry <a href="http://cloud.spring.io/spring-cloud-cloudfoundry-service-broker/">Service Broker</a>.</li>
             </ul>
           </div>
         </div>
-      </nav>
+
+        <div class="row justify-content-center actions">
+          <div class="col-md-3 border rounded action">
+            <a href="#contact">Contact us</a> to discuss your project needs
+          </div>
+        </div>
+      </div>
     </div>
 
-
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <div class="container">
-            <div class="carousel-caption">
-              <img src="img/BC_Merlin_CF_ElementsV1_600x200_emailBanner.jpg" class="img-responsive carousel-item-image"/>
-              <h2>We are proud to be sponsors of this amazing event.  Join us in Boston!</h2>
-              <p><a class="btn btn-lg btn-primary" href="https://goo.gl/6txAX6" target="_blank" role="button">Register</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <i class="fa fa-group"></i>
-              <h1 style="color: #3a3a3a;">Join our team!</h1>
-              <p>Do you know and love Spring Cloud and Cloud Foundry? Are you passionate about solving real problems and sharing your knowledge? Are you looking to get in very early on new startup?</p>
-              <p><a class="btn btn-lg btn-primary" href="#contact" role="button">Contact us</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div><!-- /.carousel -->
-
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing" id="about">
-
+    <div class="contact-container">
       <div class="row">
-        <div class="col-lg-6">
-          <img class="img-circle" src="img/mortar-board.png" alt="Training Logo" width="140" height="140" />
-          <h2><span class="red">Immersive Training</span></h2>
-          <p>We offer context-based, immersive training. Our belief is that technologist need a solid education focused on context (the "why") and learning by doing (the "experiences").</p>
-          <p><a class="btn btn-default" href="#difference" role="button">Our difference &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-6">
-          <img class="img-circle" src="img/consulting.png" alt="Consulting Logo" width="140" height="140" />
-          <h2><span class="red">Advisory Consulting</span></h2>
-          <p>We work collaboratively with our customers to solve the hardest problems facing high quality software organizations.</p>
-          <p><a class="btn btn-default" href="#contact" role="button">Contact us &raquo;</a></p>
-        </div>
-      </div>
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-12">
-          <div class="col-md-9">
-            <h2 class="featurette-heading">What's in a name?</h2>
-            <p class="lead">We were founded to help our customers grow their cloud-native practices. We do this through training and advisory level consulting. Our goal is to help our customers <b>scale cloud-native capabilities, resiliently</b>.</p>
-            <p class="lead"><i>Training serves as the foundation</i>. It provides the common understanding, the common experiences and the common lexicon. But training is just the beginning. <i>Advisory level consulting picks up where training leaves off</i>.</p>
-            <p class="lead">Our many years of experience and deep expertise allow us to collaborate with our customers to solve the hard problems, design the right solutions and address the unique customer challenges. We are there for the quick question and the long term strategic engagements.</p>
-          </div>
-          <div class="col-md-3 hidden-xs" style="margin-top: 120px">
-            <img class="featurette-image img-responsive center-block rscale-featurette-image" src="img/rs-icon.png" alt="RS logo"/>
-          </div>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette" id="difference">
-        <div class="col-md-12">
-          <h2 class="featurette-heading" id="our-difference" style="padding-bottom: 20px;">Our Difference</h2>
-          <p class="lead">
-            Cloud-native is a non-trivial domain to learn. The ecosystem is large and complex. As pioneers in immersive, hands on training we are uniquely positioned to train your teams for effective, resilient scaling of cloud-native capabilities.
-          </p>
-          <div class="col-md-3"><p class="lead"><i>Engineers not trainers</i></p></div>
-          <div class="col-md-9">
-            <p class="lead">We employ engineers, not trainers. Our engineers don't just talk the talk, but we regularly walk the walk. We are experts because we have done it and we  share our experience with you.</p>
-          </div>
-          <div class="col-md-3"><p class="lead"><i>Context as a foundation</i></p></div>
-          <div class="col-md-9">
-            <p class="lead">We believe strongly in the importance of personas - understanding our audience and crafting offerings accordingly. Developers are creators and need to make good decisions and reason over domains beyond just the platform.  Given this, we can't simply educate on the flags available for `cf push` (as an example), but must provide solid context on what is happening in the platform and what best practices should be considered (think cloud-native and 12 factor). The scope is beyond solely using the functions of Cloud Foundry.
-            </p>
-          </div>
-          <div class="col-md-3"><p class="lead"><i>Immersive learning</i></p></div>
-          <div class="col-md-9">
-            <p class="lead">You should expect an intensive, hands-on training class. You won't find presentations discussing flags in `cf push`, but presentations that provide context on what is happening and why. You won't find exercises where you can cut and paste your way to the answer. Exercises provide the opportunity to experience the platform and directly apply what you have learned. You will find exercises that guide you while training you to use tools like `cf help` and the docs.
-            </p>
-          </div>
-          <div class="col-md-offset-3 col-md-9" style="margin-top: 30px;">
-            <p class="lead">
-              <a class="btn btn-default" href="courses.html" role="button">Current courses &raquo;</a>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette" id="expertise">
-        <div class="col-md-7 col-xs-12">
-          <h2 class="featurette-heading">Expertise</h2>
-          <p class="lead"><a href="https://www.cloudfoundry.org/" target="_blank">Cloud Foundry</a> is the industry standard open source cloud application platform for developing and deploying enterprise cloud applications.  We have deep experience in Cloud Foundry for both development and operations.</p>
-          <p class="lead">We helped craft the <a href="https://www.cloudfoundry.org/certification/" target="_blank">Cloud Foundry Developer Certification</a>, serving as technical advisors on the project.
-          <p class="lead">Along with <a href="http://www.engineerbetter.com/" target="_blank">Engineer Better</a> in the UK, we authored the <a href="https://www.cloudfoundry.org/training/" target="_blank">Cloud Foundry Developer Training</a> course, bringing our unique approach to the process.
-          <p class="lead">We are proud to be a <a href="https://www.cloudfoundry.org/members/" target="_blank">Silver Member</a> of the Cloud Foundry Foundation.</p>
-          <p class="lead">We have been working with the <a href="https://spring.io" target="_blank">Spring</a> for over a decade and are delighted by the current renaissance of the framework. We built and donated the <a href="http://cloud.spring.io/spring-cloud-cloudfoundry-service-broker/" target="_blank">Spring Cloud Cloud Foundry Service Broker</a>. First and foremost, we are Spring developers.</p>
-        </div>
-        <div class="col-md-5 hidden-xs" style="margin-top: 90px;">
-          <img class="featurette-image img-responsive center-block" src="img/CFF_Logo_vertical_RGB.png" alt="Cloud Foundry Logo" /><br />
-          <img class="featurette-image img-responsive center-block" src="img/cff-silver-member-logo.png" alt="CFF Silver Member Logo" />
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-      <!-- /END THE FEATURETTES -->
-
-      <div class="row">
-        <div class="col-md-12">
+        <div class="col">
           <h2 id="contact">Contact us</h2>
         </div>
       </div>
-
       <div class="row">
-        <div class="col-md-12" id="contact">
+        <div class="col" id="contact">
           <form  action="//formspree.io/contact@resilientscale.io" method="POST" name="sentMessage" id="contactForm" novalidate>
             <div class="row">
               <div class="col-md-5">
@@ -211,33 +228,24 @@
                 <p class="help-block text-danger"></p>
               </div>
             </div>
-            <div class="col-md-offset-5 col-md-7 text-left">
+            <div class="col-md-5">&nbsp;</div>
+            <div class="col-md-7 text-left">
               <div id="success"></div>
-                <button type="submit" class="btn btn-primary">Send message</button>
+                <button type="submit" class="btn btn-outline-secondary">Send message</button>
               </div>
             </div>
           </form>
         </div>
       </div>
+    </div>
+    <div class="footer row">
+      <div class="col">
+        &copy; 2018 Resilient Scale Inc &middot; <a href="privacy.html" target="_blank">Privacy</a> &middot; <a href="terms.html" target="_blank">Terms</a>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
 
-      <hr class="featurette-divider">
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017 Resilient Scale Inc &middot; <a href="privacy.html" target="_blank">Privacy</a> &middot; <a href="terms.html" target="_blank">Terms</a></p>
-      </footer>
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="bootstrap-3.3.7/assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="bootstrap-3.3.7/assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
