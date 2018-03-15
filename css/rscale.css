@@ -17,11 +17,12 @@ body {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 1px;
   min-height: 500px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   background-image: url("../img/mountain.png");
 }
 
