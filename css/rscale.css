@@ -191,6 +191,10 @@ a {
   background-image: url("../img/favicon.png");
 }
 
+.badges {
+  max-height: 250px;
+}
+
 #contact {
   margin-bottom: 30px;
 }
