@@ -202,3 +202,33 @@ a {
 .contact-container {
   margin:  50px;
 }
+
+.course-container {
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.course-title {
+  font-weight: bold;
+  font-size: 1.4em;
+  margin-top: 20px;
+}
+
+.course-details {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.course-details-section {
+  margin-bottom: 15px;
+  text-align: justify;
+  padding-right: 5px;
+  padding-left: 1px;
+}
+
+.course-details-header {
+  font-weight: bold;
+}
