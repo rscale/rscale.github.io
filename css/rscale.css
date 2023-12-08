@@ -1,8 +1,16 @@
 @import url("../lib/font/Roboto/Roboto.css");
 
 body {
-  color: #5a5a5a;
+  color: #323232;
   font-family: "Roboto", sans-serif;
+}
+
+.logo-row {
+  height: 80px;
+}
+
+.logos img {
+  height: 60px;
 }
 
 .row {
@@ -41,120 +49,26 @@ body {
   height: 100%;
 }
 
-.about {
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
-
-.rs-section {
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-right: 10%;
-  padding-left: 10%;
-}
-
-.rs-container {
-  background-color: black;
-  border: 1px solid black;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
-  color: white;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.rs-section-header {
+.expertise h5 {
+  font-size: 1.5em;
+  font-weight: 700;
   color: #B52626;
-  font-weight: 300;
-  padding-bottom: 20px;
-  font-size: 2em;
-  text-transform: lowercase;
-  text-align: center;
-  letter-spacing: 3px;
 }
 
-.rs-section-tagline {
-  font-size: 1.4em;
-  font-weight: 300;
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-.rs-section-content-header {
-  font-weight: bold;
+.expertise p {
   font-size: 1.2em;
 }
 
-.rs-section-content {
-  padding-bottom: 25px;
-  font-size: 1.1em;
-  font-weight: 300;
-}
-
-a {
+#customers h2 {
+  font-size: 1.5em;
+  font-weight: 700;
   color: #B52626;
 }
 
-#training {
-  margin-bottom: 100px;
-}
 
-.training {
-  background-image: url("../img/training.png");
-}
-
-#consulting {
-  margin-bottom: 50px;
-}
-
-.consulting {
-  background-image: url("../img/hands.png");
-}
-
-#expertise {
-  margin-bottom: 50px;
-}
-
-.expertise {
-  background-image: url("../img/wing.png");
-}
-
-.actions {
-  padding-top: 30px;
-}
-
-.action {
-  padding: 10px;
-  text-align: center;
-}
-
-.quote-container {
-  padding-left: 12%;
-  padding-right: 12%;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.quote-image {
-  padding-bottom: 15px;
-}
-
-.quote {
-  font-size: 1.8em;
-  font-weight: 400;
-  text-align: center;
-  padding: 60px;
-}
-
-.quote-attribution {
-  padding: 30px;
-  font-size: 0.9em;
+#contact {
+  background: rgb(52, 58, 64);
+  color: white;
 }
 
 .footer {
@@ -165,70 +79,4 @@ a {
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 0.9em;
-}
-
-.navbar-icon {
-  display: inline-block;
-  min-width: 160px;
-  min-height: 35px;
-  max-height: 60px;
-  max-width: 210px;
-  margin-left: -5px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../img/resilient-scale-logo-nav.png");
-}
-
-.navbar-icon-sm {
-  display: inline-block;
-  min-width: 160px;
-  min-height: 35px;
-  max-height: 60px;
-  max-width: 210px;
-  margin-left: -5px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("../img/favicon.png");
-}
-
-.badges {
-  max-height: 250px;
-}
-
-#contact {
-  margin-bottom: 30px;
-}
-
-.contact-container {
-  margin:  50px;
-}
-
-.course-container {
-  padding-left: 12%;
-  padding-right: 12%;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.course-title {
-  font-weight: bold;
-  font-size: 1.4em;
-  margin-top: 20px;
-  margin-bottom: 5px;
-}
-
-.course-details {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.course-details-section {
-  margin-bottom: 15px;
-  text-align: justify;
-  padding-right: 5px;
-  padding-left: 1px;
-}
-
-.course-details-header {
-  font-weight: bold;
 }
